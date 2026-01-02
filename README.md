@@ -24,27 +24,6 @@ The project is fully **Dockerized** and runs with a single command using **Docke
 - Docker Compose
 - Multi-container setup
 
----
-
-## 📂 Project Structure
-
-MotorFaultProject/
-│
-├── client/ # React frontend
-│ ├── Dockerfile
-│ └── ...
-│
-├── server/ # FastAPI backend
-│ ├── app/
-│ ├── model.joblib # Trained ML model
-│ ├── requirements.txt
-│ └── Dockerfile
-│
-├── docker-compose.yml
-└── README.md
-
-
----
 
 ## ✅ Prerequisites
 
