@@ -1,0 +1,14 @@
+services:
+  backend:
+    build: ./server
+    container_name: motor-backend
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./client
+    container_name: motor-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
